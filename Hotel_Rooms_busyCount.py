@@ -5,9 +5,7 @@ Created on Tue Jan  7 14:21:19 2025
 @author: Dino
 """
 
-import numpy as np
 import random 
-
         
 max_floors = 10
 max_rooms = 26
@@ -39,3 +37,4 @@ for i in LOG:
 for i in state:
     if(state[i]):
         busy_cnts = busy_cnts+1
+print( round(busy_cnts/max_rooms/max_floors*100), "%")
