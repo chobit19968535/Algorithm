@@ -9,11 +9,11 @@ import random
         
 max_floors = 10
 max_rooms = 26
-test_length = 1000
+test_length = 5555
 busy_cnts = 0
 LOG = list()
 
-for i in range(0, 1000):
+for i in range(0, test_length):
     idle = False
     if(random.randint(0,1)): idle  = True
     floor = random.randint(0,9)
